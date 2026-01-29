@@ -4,7 +4,7 @@
 
     //Connexion
     $url = "http://web:8069";
-    $db = "odoo_v16";
+    $db = "odoo18";
     $username = "apiwordpress@admin.fr";
     $cleapi = "332f7355e98b26fda5da63126456fc43a7050777";
 
