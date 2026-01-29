@@ -14,9 +14,9 @@ services:
       - HOST=db
       - USER=odoo
       - PASSWORD=myodoo
-    #command: odoo -d odoo_v16 -i rentcars --dev xml
+    command: odoo -d odoo18 -i rentcars --dev xml
     extra_hosts:
-        - "host.docker.internal:host-gateway"
+    - "host.docker.internal:host-gateway"
   db:
     user: root
     image: postgres:13
